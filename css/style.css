@@ -1,0 +1,981 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(../fonts/webfontkit-20210708-091820/lato-regular.woff) format("truetype");
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(../fonts/webfontkit-20210708-091820/lato-bold.woff) format("truetype");
+}
+
+@font-face {
+    font-family: LatoBlack;
+    src: url(../fonts/webfontkit-20210708-091820/lato-black.woff) format("truetype");
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamBold.woff') format('woff'), url('../fonts/GothamBold.ttf') format('truetype'), url('../fonts/GothamBold.svg#GothamBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: firasansbold;
+    src: url(../fonts/fira-sans/firasans-bold.woff) format("truetype");
+}
+
+
+/* * {
+    background-color: green !important;
+}
+
+body {
+    background-color: red !important;
+} */
+
+.navBarSection {
+    font-family: LatoRegular;
+    font-size: 14px;
+    float: right;
+}
+
+.navSec {
+    line-height: 0.5;
+}
+
+.pageSettingSymb1 {
+    font-family: firasansbold;
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.pageSettingSymb2 {
+    font-family: firasansbold;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.pageSettingSymb3 {
+    font-family: firasansbold;
+    font-size: 17px;
+}
+
+.topNavMenu {
+    margin-top: -3px;
+}
+
+.navDropdown {
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.carousel .carousel-item {
+    height: 30em;
+}
+
+.carousel .carousel-item>*:first-child {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+}
+
+.imgCaption1 {
+    width: 169px;
+    color: white;
+    background-color: #1b7642;
+    font-family: LatoBold;
+    font-size: 57px;
+    text-align: start;
+    padding-left: 13px;
+}
+
+.imgCaption2 {
+    width: 471px;
+    color: white;
+    background-color: #0f5c30;
+    font-family: LatoBold;
+    font-size: 35px;
+    text-align: start;
+    padding-left: 13px;
+}
+
+.sliderBtn {
+    font-family: LatoRegular;
+    font-size: 22px;
+    background-color: #ffffff;
+    color: #272727;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    float: left;
+    height: 40px;
+}
+
+
+/* Slider end */
+
+.picTxtSection {
+    padding-bottom: 90px;
+    padding-top: 75px;
+}
+
+#textPic {
+    font-size: 109px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 60%;
+    left: 39%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    -webkit-text-fill-color: transparent;
+    background: url("../images/SmartFarming.jpg") 50% 50%;
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+
+#imgTextFirst {
+    position: absolute;
+    margin: 0;
+    top: 0%;
+    left: 17%;
+    font-size: 43px;
+    font-family: LatoBlack;
+    color: #505050;
+}
+
+#imgTextSubline {
+    position: absolute;
+    margin: 0;
+    top: 89%;
+    left: 27%;
+    font-size: 43px;
+    font-family: LatoBlack;
+    color: #505050;
+}
+
+.sectionLogo {
+    padding-left: 895px;
+}
+
+.sectionLogoImg {
+    width: 156px;
+}
+
+
+/* ---------------------- */
+
+.card-flex {
+    padding-bottom: 90px;
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-flex>div {
+    font-family: LatoBlack;
+    font-size: 16px;
+    color: #505050;
+    text-align: center;
+    margin: 5px 10px 0px 10px;
+}
+
+#cont4 {
+    flex-flow: row wrap;
+}
+
+
+/* ------------ */
+
+.myCardImg {
+    background: url("../images/backgroun.png");
+    background-size: cover;
+}
+
+.myPara {
+    color: #ffffff;
+    text-align: left;
+    background-color: #3f3531;
+    padding: 50px;
+}
+
+.paraHeding {
+    font-family: LatoBlack;
+    font-size: 36px;
+}
+
+.paraTxt {
+    font-family: LatoRegular;
+    font-size: 16px;
+}
+
+.paraBtn {
+    font-family: LatoRegular;
+    font-size: 22px;
+    background-color: #44af72;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+    border: none;
+}
+
+.paraBtn:hover {
+    color: #ffffff;
+    background-color: #1b6d3e;
+}
+
+.videoImgSect {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 4%;
+    z-index: 2;
+}
+
+.videoImg {
+    border-radius: 15px;
+    height: 400px;
+    width: 580px;
+    position: relative;
+}
+
+.playButton {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: -55%;
+    z-index: 2;
+}
+
+.playButton:hover {
+    opacity: 0.7;
+}
+
+.imgSocial {
+    width: 30px;
+}
+
+.footerBottum {
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.footerHeding {
+    font-family: LatoBold;
+    font-size: 22px;
+}
+
+.footerEnd {
+    font-family: LatoBold;
+    font-size: 12px;
+}
+
+.input-container {
+    /* width: 250px; */
+    /* border: 1px solid #a9a9a9; */
+    display: inline-block;
+    width: 90%;
+    position: relative;
+    background-color: #1b6d3e;
+    border-radius: 20px;
+}
+
+.input-container input:focus,
+.input-container input:active {
+    outline: none;
+    border: none;
+}
+
+.input-container input {
+    width: 75%;
+    border: none;
+    margin: 0px;
+    padding: 10px 10px 10px 13px;
+    outline: none;
+    border: none;
+    background-color: #1b6d3e;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+#fo .input-container button {
+    float: right;
+}
+
+input.input-field::placeholder {
+    color: white;
+}
+
+.input-button {
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 16px 7px 16px;
+    background-color: #ffffff;
+    transform: translateX(2px);
+    border: none;
+}
+
+
+/* Footer Strat */
+
+#myFooter {
+    background: url("../images/footer.png");
+    background-size: cover;
+}
+
+.footerContent {
+    padding-top: 180px;
+    color: #ffffff;
+    /* padding-bottom: 40px; */
+}
+
+.contactColor {
+    background-color: #1b6d3e;
+    padding: 43px 22px 25px 22px;
+}
+
+.footerSubListCont {
+    margin-left: -54px;
+}
+
+.footerSubList {
+    padding-top: 30px;
+}
+
+.footerSubList>div>ul>li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.footerSubList>div>ul>li>a {
+    color: white;
+    font-family: LatoRegular;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.line {
+    background-color: white;
+    opacity: 0.3;
+    margin-right: 20px;
+}
+
+.footerContact {
+    background-color: #1b6d3e;
+    padding: 30px;
+}
+
+#footerTabHed1 {
+    font-family: LatoBold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#listItem {
+    padding-top: 46px;
+}
+
+#footerTabHed2 {
+    font-family: LatoBold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 53px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    line-height: 1em;
+}
+
+.flex-container2>div {
+    /* width: 100px; */
+    font-size: 13px;
+    /* text-align: center; */
+}
+
+#flexText {
+    text-align: right;
+    padding-left: 208px;
+}
+
+.contactHading {
+    font-family: LatoBold;
+    font-size: 18px;
+}
+
+.contactSubline {
+    font-family: LatoRegular;
+    font-size: 14px;
+    margin-top: -17px;
+}
+
+
+/* Media Query */
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+    .navBarSection {
+        font-family: LatoRegular;
+        font-size: 10px;
+        float: right;
+        margin-left: -61px;
+    }
+    .picTxtSection {
+        padding-bottom: 55px;
+        padding-top: 75px;
+    }
+    #textPic {
+        font-size: 109px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 60%;
+        left: 39%;
+        margin: 0;
+    }
+    #imgTextFirst {
+        position: absolute;
+        margin: 0;
+        top: 14%;
+        left: 16%;
+        font-size: 38px;
+        font-family: LatoBlack;
+        color: #505050;
+    }
+    #imgTextSubline {
+        position: absolute;
+        margin: 0;
+        top: 84%;
+        left: 27%;
+        font-size: 38px;
+        font-family: LatoBlack;
+        color: #505050;
+    }
+    .sectionLogo {
+        padding: 53px 0px 0px 784px;
+    }
+    .sectionLogoImg {
+        width: 156px;
+    }
+    .videoImgSect {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 8%;
+        z-index: 2;
+    }
+    .videoImg {
+        width: 333px;
+        height: 222px;
+        margin-top: 21%;
+    }
+    .playButton {
+        margin-top: 45%;
+        margin-left: -58%;
+        width: 56px;
+    }
+    .paraHeding {
+        font-family: LatoBlack;
+        font-size: 26px;
+    }
+    .paraTxt {
+        font-family: LatoRegular;
+        font-size: 10px;
+    }
+    .paraBtn {
+        font-family: LatoRegular;
+        font-size: 12px;
+        padding: 0px 12px 0px 12px;
+        height: 33px;
+    }
+}
+
+
+/* On screens that are 991px wide or less, the background color is olive */
+
+@media screen and (max-width: 991px) {
+    #topNavbar {
+        display: none;
+    }
+    .navBarSection {
+        margin-left: -61px;
+    }
+    .navLogo {
+        padding-right: 334px;
+    }
+    .mobileSec {
+        display: none;
+    }
+    .blockImg {
+        margin-top: 110px;
+    }
+    #imgTextFirst {
+        position: absolute;
+        margin: 0;
+        top: 5%;
+        left: 16%;
+        font-size: 27px;
+        color: #505050;
+    }
+    #imgTextSubline {
+        position: absolute;
+        margin: 0;
+        top: 72%;
+        left: 26%;
+        font-size: 27px;
+        color: #505050;
+    }
+    #textPic {
+        font-size: 68px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 50%;
+        left: 38%;
+        margin: 0;
+    }
+    .sectionLogo {
+        padding: 16px 0px 0px 576px
+    }
+    .videoImgSect {
+        margin-top: 5%;
+        margin-left: 6%;
+    }
+    .videoImg {
+        width: 309px;
+        height: 222px;
+        margin-top: 21%;
+    }
+    .playButton {
+        margin-top: 45%;
+        margin-left: -58%;
+        width: 56px;
+    }
+    .paraHeding {
+        font-family: LatoBlack;
+        font-size: 26px;
+    }
+    .paraTxt {
+        font-family: LatoRegular;
+        font-size: 10px;
+    }
+    .paraBtn {
+        font-family: LatoRegular;
+        font-size: 12px;
+        padding: 0px 12px 0px 12px;
+        height: 33px;
+    }
+    /* Footer Section */
+    #myFooter {
+        background-image: none;
+        background-color: #1b7642;
+        margin-top: -189px;
+    }
+    .footerHeding {
+        margin-top: 0px;
+    }
+    #listItem {
+        padding-top: 0px;
+    }
+    .footerEnd {
+        display: none;
+    }
+    .input-container {
+        display: inline-block;
+        width: 98%;
+        position: relative;
+        background-color: #1b6d3e;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .input-button {
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 7px 22px 7px 21px;
+        background-color: #ffffff;
+        transform: translateX(2px);
+        border: none;
+    }
+    .input-container input {
+        width: 74%;
+        border: none;
+        margin: 0px;
+        padding: 10px 10px 10px 21px;
+        outline: none;
+        border: none;
+        background-color: #1b6d3e;
+        border-radius: 20px;
+        color: #ffffff;
+    }
+}
+
+
+/* On screens that are 768px wide or less, the background color is olive */
+
+@media screen and (max-width: 767px) {
+    #topNavbar {
+        display: none;
+    }
+    .navBarSection {
+        margin-left: -61px;
+    }
+    .navLogo {
+        padding-right: 181px;
+    }
+    .mobileSec {
+        display: none;
+    }
+    .blockImg {
+        margin-top: 110px;
+    }
+    #imgTextFirst {
+        position: absolute;
+        margin: 0;
+        top: 9%;
+        left: 15%;
+        font-size: 21px;
+        color: #505050;
+    }
+    #imgTextSubline {
+        position: absolute;
+        margin: 0;
+        top: 79%;
+        left: 25%;
+        font-size: 22px;
+        color: #505050;
+    }
+    #textPic {
+        font-size: 52px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 55%;
+        left: 38%;
+        margin: 0;
+    }
+    .sectionLogo {
+        padding: 16px 0px 0px 426px
+    }
+    .videoImgSect {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 6%;
+        z-index: 2;
+    }
+    .videoImg {
+        width: 300px;
+        height: 222px;
+        margin-top: 21%;
+    }
+    .playButton {
+        margin-top: 45%;
+        margin-left: -58%;
+        width: 56px;
+    }
+    .paraHeding {
+        font-family: LatoBlack;
+        font-size: 26px;
+    }
+    .paraTxt {
+        font-family: LatoRegular;
+        font-size: 10px;
+    }
+    .paraBtn {
+        font-family: LatoRegular;
+        font-size: 12px;
+        padding: 0px 12px 0px 12px;
+        height: 33px;
+    }
+    /* Footer Section */
+    #myFooter {
+        background-image: none;
+        background-color: #1b7642;
+        margin-top: -189px;
+    }
+    .footerHeding {
+        margin-top: 0px;
+    }
+    #listItem {
+        padding-top: 0px;
+    }
+    .footerEnd {
+        display: none;
+    }
+    .input-container {
+        display: inline-block;
+        width: 98%;
+        position: relative;
+        background-color: #1b6d3e;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .input-button {
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 7px 22px 7px 21px;
+        background-color: #ffffff;
+        transform: translateX(2px);
+        border: none;
+    }
+    .input-container input {
+        width: 66%;
+        border: none;
+        margin: 0px;
+        padding: 10px 10px 10px 21px;
+        outline: none;
+        border: none;
+        background-color: #1b6d3e;
+        border-radius: 20px;
+        color: #ffffff;
+    }
+}
+
+
+/* On screens that are 481px wide or less, the background color is olive */
+
+@media screen and (max-width: 481px) {
+    #topNavbar {
+        display: none;
+    }
+    .navBarSection {
+        margin-left: -61px;
+    }
+    .navLogo {
+        padding-right: 10px;
+    }
+    .imgCaption1 {
+        width: 169px;
+        font-family: LatoBold;
+        font-size: 30px;
+        padding-left: 13px;
+    }
+    .imgCaption2 {
+        width: 268px;
+        font-family: LatoBold;
+        font-size: 19px;
+        text-align: start;
+        padding-left: 13px;
+    }
+    .sliderBtn {
+        font-family: LatoRegular;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        float: left;
+        height: 25px;
+    }
+    #imgTextFirst {
+        position: absolute;
+        margin: 0;
+        top: -30%;
+        left: 19%;
+        font-size: 13px;
+    }
+    #imgTextSubline {
+        position: absolute;
+        margin: 0;
+        top: 19%;
+        left: 29%;
+        font-size: 13px;
+    }
+    #textPic {
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: relative;
+        top: 0%;
+        margin: 0;
+        letter-spacing: -1px;
+        padding: 0px 0px 0px 55px;
+    }
+    .sectionLogo {
+        padding: 0px;
+        width: 14%;
+        position: relative;
+        top: -74px;
+        left: 277px;
+    }
+    .picTxtSection {
+        padding-bottom: 0px;
+        padding-top: 70px;
+    }
+    .picTxtSection {
+        margin-bottom: -55px;
+    }
+    .card-flex {
+        padding-bottom: 30px;
+    }
+    .card-flex>div>img {
+        width: 50px;
+    }
+    .cardText {
+        font-size: 14px;
+    }
+    .videoImg {
+        width: 93%;
+        height: 199px;
+        margin-top: 0%;
+    }
+    .playButton {
+        margin-top: 22%;
+        margin-left: -50%;
+        width: 42px;
+    }
+    .paraHeding {
+        font-family: LatoBlack;
+        font-size: 26px;
+        margin-top: 107px;
+    }
+    .paraTxt {
+        font-family: LatoRegular;
+        font-size: 10px;
+    }
+    .myPara {
+        padding: 35px 0px 0px 0px;
+    }
+    .paraBtn {
+        font-family: LatoRegular;
+        font-size: 12px;
+        padding: 0px 12px 0px 12px;
+        height: 33px;
+    }
+    #myParaMboi {
+        margin-top: 50px;
+        padding: 25px 0px 0px 0px;
+    }
+    .fMobile {
+        margin: -172px 0px 0px 140px;
+    }
+    #myFooter {
+        background-image: none;
+        background-color: #1b7642;
+        margin-top: -189px;
+    }
+    .footerNavMobi {
+        padding: 0px 10px 0px 10px;
+    }
+    #footerTabHed1 {
+        font-family: LatoBold;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    #footerTabHed2 {
+        font-family: LatoBold;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .footerSubList>div>ul>li>a {
+        font-size: 10px;
+        padding-top: 3px;
+    }
+    .footerHeding {
+        margin-top: 0px;
+    }
+    #listItem {
+        padding-top: 0px;
+    }
+    .footerEnd {
+        display: none;
+    }
+    .contactColor {
+        padding: 15px 22px 25px 10px;
+        text-align: center;
+    }
+    .line {
+        margin-right: 2px;
+    }
+    .input-container {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        background-color: #1b6d3e;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .input-button {
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 10px 9px 7px 9px;
+        background-color: #ffffff;
+        transform: translateX(2px);
+        border: none;
+    }
+    .input-container input {
+        width: 72%;
+        border: none;
+        margin: 0px;
+        padding: 10px 10px 10px 21px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-device-width: 319px) and (max-device-width: 400px) {
+    .navLogo {
+        /* padding-right: 43px; */
+        width: 75%;
+    }
+    #imgTextFirst {
+        position: absolute;
+        margin: 0;
+        top: -30%;
+        left: 18%;
+        font-size: 12px;
+    }
+    #imgTextSubline {
+        position: absolute;
+        margin: 0;
+        top: 18%;
+        left: 27%;
+        font-size: 12px;
+    }
+    #textPic {
+        font-size: 37px;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: relative;
+        top: 0%;
+        margin: 0;
+        letter-spacing: -1px;
+        padding: 0px 0px 0px 53px;
+    }
+    .sectionLogo {
+        padding: 0px;
+        width: 14%;
+        position: relative;
+        top: -68px;
+        left: 254px;
+    }
+    .picTxtSection {
+        padding-bottom: 0px;
+        padding-top: 70px;
+    }
+    .videoImg {
+        width: 93%;
+        height: 199px;
+        margin-top: 0%;
+    }
+    .input-container input {
+        width: 67%;
+        border: none;
+        margin: 0px;
+        padding: 10px 10px 10px 21px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+}
